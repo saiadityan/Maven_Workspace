@@ -16,4 +16,10 @@ public class ClassD
 	  {
 		  Reporter.log("tc010 executed successfull", true);
 	  }
+
+	  @Test
+	  public void Screencapture() 
+	  {
+		  Reporter.log("Screenshot is captured", true);
+	  }
 }
