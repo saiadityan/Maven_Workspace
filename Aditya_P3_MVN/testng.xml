@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="default suite">
+	<test name="test1" verbose="2">
+		<classes>
+			<class name="pkg1.ClassB"></class>
+			<class name="pkg2.ClassA"></class>
+		</classes>
+	</test>
+</suite>

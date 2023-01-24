@@ -1,0 +1,175 @@
+<html>
+<head>
+<title>TestNG:  test1</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>test1</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>8/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Jan 09 14:07:33 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>0 seconds (134 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='pkg2.ClassA.Login()'><b>Login</b><br>Test class: pkg2.ClassA<br/>
+<a href="#Output-345281752" onClick='toggleBox("Output-345281752", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-345281752" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-345281752">
+Login test successfull<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>pkg2.ClassA@1f554b06</td></tr>
+<tr>
+<td title='pkg1.ClassB.Logout()'><b>Logout</b><br>Test class: pkg1.ClassB<br/>
+<a href="#Output-1682463303" onClick='toggleBox("Output-1682463303", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1682463303" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1682463303">
+Logout test successfull<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>pkg1.ClassB@614ddd49</td></tr>
+<tr>
+<td title='pkg2.ClassA.tc001()'><b>tc001</b><br>Test class: pkg2.ClassA<br/>
+<a href="#Output-1896294051" onClick='toggleBox("Output-1896294051", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1896294051" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1896294051">
+tc001 executed successfull<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>pkg2.ClassA@1f554b06</td></tr>
+<tr>
+<td title='pkg2.ClassA.tc002()'><b>tc002</b><br>Test class: pkg2.ClassA<br/>
+<a href="#Output-1684015092" onClick='toggleBox("Output-1684015092", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1684015092" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1684015092">
+tc002 executed successfull<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>pkg2.ClassA@1f554b06</td></tr>
+<tr>
+<td title='pkg2.ClassA.tc003()'><b>tc003</b><br>Test class: pkg2.ClassA<br/>
+<a href="#Output-1209669119" onClick='toggleBox("Output-1209669119", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1209669119" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1209669119">
+tc003 executed successfull<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>pkg2.ClassA@1f554b06</td></tr>
+<tr>
+<td title='pkg1.ClassB.tc004()'><b>tc004</b><br>Test class: pkg1.ClassB<br/>
+<a href="#Output-1134612201" onClick='toggleBox("Output-1134612201", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1134612201" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1134612201">
+tc004 executed successfull<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>pkg1.ClassB@614ddd49</td></tr>
+<tr>
+<td title='pkg1.ClassB.tc005()'><b>tc005</b><br>Test class: pkg1.ClassB<br/>
+<a href="#Output-246550802" onClick='toggleBox("Output-246550802", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-246550802" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-246550802">
+tc005 executed successfull<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>pkg1.ClassB@614ddd49</td></tr>
+<tr>
+<td title='pkg1.ClassB.tc006()'><b>tc006</b><br>Test class: pkg1.ClassB<br/>
+<a href="#Output-786041152" onClick='toggleBox("Output-786041152", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-786041152" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-786041152">
+tc006 executed successfull<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>pkg1.ClassB@614ddd49</td></tr>
+</table><p>
+</body>
+</html>
