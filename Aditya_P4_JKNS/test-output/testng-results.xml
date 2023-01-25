@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+    <line>
+      <![CDATA[Login test successfull]]>
+    </line>
+    <line>
+      <![CDATA[tc001 executed successfull]]>
+    </line>
+    <line>
+      <![CDATA[tc002 executed successfull]]>
+    </line>
+    <line>
+      <![CDATA[tc003 executed successfull]]>
+    </line>
+    <line>
+      <![CDATA[Logout test successfull]]>
+    </line>
+    <line>
+      <![CDATA[tc004 executed successfull]]>
+    </line>
+    <line>
+      <![CDATA[tc005 executed successfull]]>
+    </line>
+    <line>
+      <![CDATA[tc006 executed successfull]]>
+    </line>
+  </reporter-output>
+  <suite name="default suite" duration-ms="96" started-at="2023-01-25T06:22:26 IST" finished-at="2023-01-25T06:22:26 IST">
+    <groups>
+    </groups>
+    <test name="test1" duration-ms="96" started-at="2023-01-25T06:22:26 IST" finished-at="2023-01-25T06:22:26 IST">
+      <class name="jk2.ClassB">
+        <test-method status="PASS" signature="Logout()[pri:0, instance:jk2.ClassB@1f554b06]" name="Logout" duration-ms="2" started-at="2023-01-25T06:22:26 IST" finished-at="2023-01-25T06:22:26 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Logout test successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="tc004()[pri:0, instance:jk2.ClassB@1f554b06]" name="tc004" duration-ms="2" started-at="2023-01-25T06:22:26 IST" finished-at="2023-01-25T06:22:26 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[tc004 executed successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc004 -->
+        <test-method status="PASS" signature="tc005()[pri:0, instance:jk2.ClassB@1f554b06]" name="tc005" duration-ms="2" started-at="2023-01-25T06:22:26 IST" finished-at="2023-01-25T06:22:26 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[tc005 executed successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc005 -->
+        <test-method status="PASS" signature="tc006()[pri:0, instance:jk2.ClassB@1f554b06]" name="tc006" duration-ms="3" started-at="2023-01-25T06:22:26 IST" finished-at="2023-01-25T06:22:26 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[tc006 executed successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc006 -->
+      </class> <!-- jk2.ClassB -->
+      <class name="jk1.ClassA">
+        <test-method status="PASS" signature="Login()[pri:0, instance:jk1.ClassA@614ddd49]" name="Login" duration-ms="12" started-at="2023-01-25T06:22:26 IST" finished-at="2023-01-25T06:22:26 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Login test successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="tc001()[pri:0, instance:jk1.ClassA@614ddd49]" name="tc001" duration-ms="2" started-at="2023-01-25T06:22:26 IST" finished-at="2023-01-25T06:22:26 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[tc001 executed successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc001 -->
+        <test-method status="PASS" signature="tc002()[pri:0, instance:jk1.ClassA@614ddd49]" name="tc002" duration-ms="1" started-at="2023-01-25T06:22:26 IST" finished-at="2023-01-25T06:22:26 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[tc002 executed successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc002 -->
+        <test-method status="PASS" signature="tc003()[pri:0, instance:jk1.ClassA@614ddd49]" name="tc003" duration-ms="3" started-at="2023-01-25T06:22:26 IST" finished-at="2023-01-25T06:22:26 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[tc003 executed successfull]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tc003 -->
+      </class> <!-- jk1.ClassA -->
+    </test> <!-- test1 -->
+  </suite> <!-- default suite -->
+</testng-results>
